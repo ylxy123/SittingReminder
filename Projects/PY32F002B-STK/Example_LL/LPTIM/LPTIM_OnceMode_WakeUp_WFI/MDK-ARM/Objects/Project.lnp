@@ -1,0 +1,27 @@
+--cpu Cortex-M0+
+".\objects\system_py32f002b.o"
+".\objects\startup_py32f002bxx.o"
+".\objects\main.o"
+".\objects\py32f002b_it.o"
+".\objects\py32f002bxx_ll_start_kit.o"
+".\objects\py32f002b_ll_utils.o"
+".\objects\py32f002b_ll_lptim.o"
+".\objects\py32f002b_ll_usart.o"
+".\objects\py32f002b_ll_gpio.o"
+".\objects\py32f002b_ll_rcc.o"
+".\objects\py32f002b_ll_adc.o"
+".\objects\py32f002b_ll_tim.o"
+".\objects\devuart.o"
+".\objects\dev.o"
+".\objects\devadc.o"
+".\objects\devgpio.o"
+".\objects\bsp.o"
+".\objects\lowenergy.o"
+".\objects\bo_pvdf.o"
+".\objects\core.o"
+".\objects\bo_motor.o"
+".\objects\th_rule_check.o"
+--library_type=microlib --strict --scatter ".\Objects\Project.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Project.map" -o .\Objects\Project.axf
