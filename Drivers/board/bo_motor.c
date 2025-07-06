@@ -118,7 +118,7 @@ void bo_motor_auto(motor_info_t *m)
   else if(m->mode.mode == MOTOR_MODE_ON)
   {
     power_5V_on();
-    tm_motor_pwm_set(0,50);
+    tm_motor_pwm_set(m,50);
   }
   else if(m->mode.mode == MOTOR_MODE_BLINK) //
   {

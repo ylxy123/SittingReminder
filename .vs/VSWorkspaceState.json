@@ -1,12 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Projects\\PY32F002B-STK",
-    "\\Projects\\PY32F002B-STK\\Example_LL",
-    "\\Projects\\PY32F002B-STK\\Example_LL\\LPTIM",
-    "\\Projects\\PY32F002B-STK\\Example_LL\\LPTIM\\LPTIM_OnceMode_WakeUp_WFI",
-    "\\Projects\\PY32F002B-STK\\Example_LL\\LPTIM\\LPTIM_OnceMode_WakeUp_WFI\\Src"
+    "\\Drivers",
+    "\\Drivers\\board"
   ],
-  "SelectedNode": "\\Projects",
   "PreviewInSolutionExplorer": false
 }
